@@ -235,3 +235,9 @@ h3 {
         bottom: 0;
     }
 }
+
+/* hacky customizations to get tables working */
+table { width:100%}
+th { background-color:#5374a6; }
+tr:nth-child(odd) { background-color:#b8d1f3; }
+tr:nth-child(even) { background-color:#dae5f4; }
